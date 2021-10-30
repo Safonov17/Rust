@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../images/background.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  padding-top: 15px;
+}
+.header__inner {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+.logo__image {
+  max-height: 50px;
+}
+.social__image {
+  width: 50px;
+  height: 100%;
+}
+.social {
+  margin-left: auto;
+}
+/* MAIN  */
+.title {
+  font-size: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+.cards {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+}
+.card__criminal {
+  overflow: hidden;
+}
+.criminal__text {
+  padding-bottom: 20px;
+}
+.criminal__image {
+  width: 80%;
+  height: 80%;
+  transition: 0.3s;
+}
+.criminal__image:hover {
+  transform: scale(1.1);
+}
+.card__friendly {
+  overflow: hidden;
+}
+.friendly__text {
+  padding-bottom: 20px;
+}
+.friendly__image {
+  width: 80%;
+  height: 80%;
+  transition: 0.3s;
+}
+.friendly__image:hover {
+  transform: scale(1.1);
+}
