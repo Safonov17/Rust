@@ -4,12 +4,14 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url(../images/background.gif);
+  background-image: url(../images/bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  color: #fff;
 }
+
 a {
   text-decoration: none;
 }
@@ -31,6 +33,7 @@ a {
 .social__image {
   width: 50px;
   height: 100%;
+  filter: invert(1);
 }
 .social {
   margin-left: auto;
